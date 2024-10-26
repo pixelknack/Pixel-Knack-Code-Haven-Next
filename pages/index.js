@@ -90,15 +90,15 @@ const Home = (props) => {
           <div className="home-hero">
             <div className="home-hero-text-container">
               <h1 className="home-heading1">
-                <span className="Section-Heading home-text10">
-                  Pixel Knack Code Haven
-                </span>
+                <span className="Section-Heading home-text10">Pixel Knack</span>
+                <br className="Section-Heading home-text11"></br>
+                <span className="Section-Heading home-text12"> Code Haven</span>
                 <br></br>
               </h1>
-              <span className="home-text12">
+              <span className="home-text14">
                 Crafting Pixels into Functional Code
               </span>
-              <span id="about" className="home-text13">
+              <span id="about" className="home-text15">
                 Welcome to Pixel Knack Code Haven (PKCH), where creativity meets
                 technology! I&apos;m [Your Name], a passionate developer
                 dedicated to transforming ideas into reality through innovative
@@ -106,7 +106,7 @@ const Home = (props) => {
               </span>
               <div className="home-cta-btn-container">
                 <button className="home-cta-btn1 Anchor button">
-                  <span className="home-text14">
+                  <span className="home-text16">
                     Explore my Work (Comming Soon)
                   </span>
                 </button>
@@ -114,7 +114,7 @@ const Home = (props) => {
                   href="mailto:mail@pkch.online?subject=Get in Touch"
                   className="home-cta-btn2 Anchor button"
                 >
-                  <span className="home-text15">Get in touch</span>
+                  <span className="home-text17">Get in touch</span>
                 </a>
               </div>
             </div>
@@ -133,7 +133,7 @@ const Home = (props) => {
         </div>
         <div className="home-features">
           <div className="home-heading-container1">
-            <h2 className="home-text16">Key Skills/Services</h2>
+            <h2 className="home-text18">Key Skills/Services</h2>
           </div>
           <div className="home-cards-container">
             <div className="home-card1">
@@ -147,7 +147,7 @@ const Home = (props) => {
               </div>
               <div className="home-content-container1">
                 <span className="home-heading2 Card-Heading">Blockchain</span>
-                <span className="home-text17">
+                <span className="home-text19">
                   Blockchain Integration and Smart Contract Development-API
                   Development and Database Management
                 </span>
@@ -161,7 +161,7 @@ const Home = (props) => {
               </div>
               <div className="home-content-container2">
                 <span className="home-heading3 Card-Heading">Fullstack</span>
-                <span className="home-text18">
+                <span className="home-text20">
                   Full-Stack Development with Next.js
                 </span>
               </div>
@@ -177,7 +177,7 @@ const Home = (props) => {
               </div>
               <div className="home-content-container3">
                 <span className="home-heading4 Card-Heading">Design</span>
-                <span className="home-text19">
+                <span className="home-text21">
                   UI/UX Design for Exceptional User Experiences
                 </span>
               </div>
@@ -186,8 +186,8 @@ const Home = (props) => {
         </div>
         <div id="packages" className="home-pricing">
           <div className="home-heading-container2">
-            <h1 className="home-text20 Section-Heading">Ask for a quote</h1>
-            <span className="home-text21">
+            <h1 className="home-text22 Section-Heading">Ask for a quote</h1>
+            <span className="home-text23">
               Ready to bring your project to life? Choose a service package that
               best fits your needs. Fill out the form below to get started!
             </span>
@@ -199,7 +199,7 @@ const Home = (props) => {
                 <span className="home-price1">
                   <span>BASIC Package ⭐</span>
                   <br></br>
-                  <span className="home-text24">$100.00</span>
+                  <span className="home-text26">$100.00</span>
                 </span>
               </div>
               <div className="home-card-content1">
@@ -226,7 +226,7 @@ const Home = (props) => {
                   CHOOSE
                 </a>
               </div>
-              <span className="home-text25">
+              <span className="home-text27">
                 Small businesses or personal projects looking for a
                 straightforward online presence.
               </span>
@@ -244,35 +244,35 @@ const Home = (props) => {
                       }}
                     />
                   </span>
-                  <span className="home-text29">$200.00</span>
+                  <span className="home-text31">$200.00</span>
                 </span>
               </div>
               <div className="home-card-content2">
                 <div className="home-container16">
-                  <span className="home-text30">
+                  <span className="home-text32">
                     Up to 5 pages of responsive web development.
                   </span>
                 </div>
                 <div className="home-container17">
-                  <span className="home-text31">
+                  <span className="home-text33">
                     Advanced UI/UX design with user flow optimization.
                   </span>
                 </div>
                 <div className="home-container18">
-                  <span className="home-text32">
+                  <span className="home-text34">
                     Integration of up to 5 third-party APIs.
                   </span>
                 </div>
                 <div className="home-container19">
-                  <span className="home-text33">
+                  <span className="home-text35">
                     Enhanced SEO optimization strategies.
                   </span>
                 </div>
                 <div className="home-container20">
-                  <span className="home-text34">Two rounds of revisions.</span>
+                  <span className="home-text36">Two rounds of revisions.</span>
                 </div>
                 <div className="home-container21">
-                  <span className="home-text35">
+                  <span className="home-text37">
                     Basic database setup (e.g., PostgreSQL).
                   </span>
                 </div>
@@ -283,7 +283,7 @@ const Home = (props) => {
                   CHOOSE
                 </a>
               </div>
-              <span className="home-text36">
+              <span className="home-text38">
                 Medium-sized businesses needing a more customized and functional
                 solution.
               </span>
@@ -294,12 +294,12 @@ const Home = (props) => {
                 <span className="home-price3">
                   <span>PRO Package⭐⭐⭐</span>
                   <br></br>
-                  <span className="home-text39">$1000.00</span>
+                  <span className="home-text41">$1000.00</span>
                 </span>
               </div>
               <div className="home-card-content3">
                 <div className="home-container22">
-                  <span className="home-text40">
+                  <span className="home-text42">
                     Unlimited pages of responsive web development.
                   </span>
                 </div>
@@ -310,28 +310,28 @@ const Home = (props) => {
                   </span>
                 </div>
                 <div className="home-container24">
-                  <span className="home-text42">
+                  <span className="home-text44">
                     Full integration of unlimited third-party APIs.
                   </span>
                 </div>
                 <div className="home-container25">
-                  <span className="home-text43">
+                  <span className="home-text45">
                     <span>Advanced SEO optimization with ongoing support.</span>
-                    <span className="home-text45 Card-Text"> four</span>
+                    <span className="home-text47 Card-Text"> four</span>
                   </span>
                 </div>
                 <div className="home-container26">
-                  <span className="home-text46">
+                  <span className="home-text48">
                     Multiple rounds of revisions as needed.
                   </span>
                 </div>
                 <div className="home-container27">
-                  <span className="home-text47">
+                  <span className="home-text49">
                     Complete database design and management.
                   </span>
                 </div>
                 <div className="home-container28">
-                  <span className="home-text48">
+                  <span className="home-text50">
                     Deployment and ongoing maintenance for 3 months.
                   </span>
                 </div>
@@ -341,7 +341,7 @@ const Home = (props) => {
                 >
                   CHOOSE
                 </a>
-                <span className="home-text49">
+                <span className="home-text51">
                   Larger businesses or startups requiring a full-fledged,
                   scalable web solution.
                 </span>
@@ -353,7 +353,7 @@ const Home = (props) => {
         <div className="home-section-separator4"></div>
         <div className="home-section-separator5"></div>
         <div id="faq" className="home-faqs">
-          <h2 className="home-text50 Section-Heading">
+          <h2 className="home-text52 Section-Heading">
             Check frequently asked questions
           </h2>
           <div className="home-content-container4">
@@ -465,7 +465,7 @@ const Home = (props) => {
             </div>
             <div className="home-container29">
               <button className="home-cta-btn3 Anchor button">
-                <span className="home-text51">GitHub</span>
+                <span className="home-text53">GitHub</span>
               </button>
               <svg width="24" height="24" viewBox="0 0 24 24">
                 <g
@@ -493,7 +493,7 @@ const Home = (props) => {
               </svg>
               <span className="Anchor">Copyright, 2021</span>
             </div>
-            <span className="home-text52">Made By Pixel Knack</span>
+            <span className="home-text54">Made By Pixel Knack</span>
           </div>
         </div>
       </div>
@@ -674,13 +674,13 @@ const Home = (props) => {
             font-family: 'Courier New';
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text12 {
+          .home-text14 {
             font-style: italic;
             font-family: 'Courier New';
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text13 {
+          .home-text15 {
             font-style: italic;
             font-family: 'Courier New';
             font-weight: 700;
@@ -709,7 +709,7 @@ const Home = (props) => {
             animation-iteration-count: 5;
             animation-timing-function: ease;
           }
-          .home-text14 {
+          .home-text16 {
             width: 100%;
             font-family: 'Courier New';
           }
@@ -730,7 +730,7 @@ const Home = (props) => {
             animation-iteration-count: 4;
             animation-timing-function: ease;
           }
-          .home-text15 {
+          .home-text17 {
             width: 100%;
             font-family: 'Courier New';
           }
@@ -837,7 +837,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-text16 {
+          .home-text18 {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Arial Black';
@@ -888,7 +888,7 @@ const Home = (props) => {
           .home-heading2 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text17 {
+          .home-text19 {
             text-align: center;
             font-family: 'Courier New';
           }
@@ -926,7 +926,7 @@ const Home = (props) => {
           .home-heading3 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text18 {
+          .home-text20 {
             text-align: center;
             font-family: 'Courier New';
           }
@@ -964,7 +964,7 @@ const Home = (props) => {
           .home-heading4 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text19 {
+          .home-text21 {
             text-align: center;
             font-family: 'Courier New';
           }
@@ -991,10 +991,10 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-tripleunit);
             flex-direction: column;
           }
-          .home-text20 {
+          .home-text22 {
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-text21 {
+          .home-text23 {
             font-style: italic;
             text-align: center;
             font-family: 'Courier New';
@@ -1050,7 +1050,7 @@ const Home = (props) => {
             text-shadow: 2px 2px 3px black;
             text-transform: uppercase;
           }
-          .home-text24 {
+          .home-text26 {
             font-size: 30px;
             font-family: 'Courier New';
           }
@@ -1141,7 +1141,7 @@ const Home = (props) => {
             text-decoration: none;
             background-color: var(--dl-color-gray-black);
           }
-          .home-text25 {
+          .home-text27 {
             padding: var(--dl-space-space-tripleunit);
             font-family: 'Courier New';
             border-radius: var(--dl-radius-radius-radius8);
@@ -1191,7 +1191,7 @@ const Home = (props) => {
             text-shadow: 2px 2px 3px black;
             text-transform: uppercase;
           }
-          .home-text29 {
+          .home-text31 {
             font-size: 30px;
             font-family: 'Courier New';
           }
@@ -1219,7 +1219,7 @@ const Home = (props) => {
             border-left-width: 0px;
             border-right-width: 0px;
           }
-          .home-text30 {
+          .home-text32 {
             font-family: 'Courier New';
           }
           .home-container17 {
@@ -1236,7 +1236,7 @@ const Home = (props) => {
             border-left-width: 0px;
             border-right-width: 0px;
           }
-          .home-text31 {
+          .home-text33 {
             font-family: 'Courier New';
           }
           .home-container18 {
@@ -1253,7 +1253,7 @@ const Home = (props) => {
             border-left-width: 0px;
             border-right-width: 0px;
           }
-          .home-text32 {
+          .home-text34 {
             font-family: 'Courier New';
           }
           .home-container19 {
@@ -1265,7 +1265,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-doubleunit);
             justify-content: space-between;
           }
-          .home-text33 {
+          .home-text35 {
             font-family: 'Courier New';
           }
           .home-container20 {
@@ -1277,7 +1277,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-doubleunit);
             justify-content: space-between;
           }
-          .home-text34 {
+          .home-text36 {
             font-family: 'Courier New';
           }
           .home-container21 {
@@ -1289,7 +1289,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-doubleunit);
             justify-content: space-between;
           }
-          .home-text35 {
+          .home-text37 {
             font-family: 'Courier New';
           }
           .home-link18 {
@@ -1305,7 +1305,7 @@ const Home = (props) => {
             text-decoration: none;
             background-color: var(--dl-color-gray-black);
           }
-          .home-text36 {
+          .home-text38 {
             padding: var(--dl-space-space-tripleunit);
             font-family: 'Courier New';
             border-radius: var(--dl-radius-radius-radius4);
@@ -1356,7 +1356,7 @@ const Home = (props) => {
             text-shadow: 2px 2px 3px black;
             text-transform: uppercase;
           }
-          .home-text39 {
+          .home-text41 {
             font-size: 30px;
             font-family: 'Courier New';
           }
@@ -1385,7 +1385,7 @@ const Home = (props) => {
             border-left-width: 0px;
             border-right-width: 0px;
           }
-          .home-text40 {
+          .home-text42 {
             font-family: 'Courier New';
           }
           .home-container23 {
@@ -1417,7 +1417,7 @@ const Home = (props) => {
             border-left-width: 0px;
             border-right-width: 0px;
           }
-          .home-text42 {
+          .home-text44 {
             font-family: 'Courier New';
           }
           .home-container25 {
@@ -1429,12 +1429,12 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-doubleunit);
             justify-content: space-between;
           }
-          .home-text43 {
+          .home-text45 {
             font-style: normal;
             font-family: 'Courier New';
             font-weight: 700;
           }
-          .home-text45 {
+          .home-text47 {
             font-size: 16px;
             line-height: 1.55;
             letter-spacing: 1px;
@@ -1450,7 +1450,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-doubleunit);
             justify-content: space-between;
           }
-          .home-text46 {
+          .home-text48 {
             font-family: 'Courier New';
           }
           .home-container27 {
@@ -1462,7 +1462,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-doubleunit);
             justify-content: space-between;
           }
-          .home-text47 {
+          .home-text49 {
             font-family: 'Courier New';
           }
           .home-container28 {
@@ -1474,7 +1474,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-doubleunit);
             justify-content: space-between;
           }
-          .home-text48 {
+          .home-text50 {
             font-family: 'Courier New';
           }
           .home-link19 {
@@ -1490,7 +1490,7 @@ const Home = (props) => {
             text-decoration: none;
             background-color: var(--dl-color-gray-black);
           }
-          .home-text49 {
+          .home-text51 {
             padding: var(--dl-space-space-doubleunit);
             font-family: 'Courier New';
             border-radius: var(--dl-radius-radius-radius8);
@@ -1531,7 +1531,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-fiveunits);
             justify-content: flex-start;
           }
-          .home-text50 {
+          .home-text52 {
             margin-bottom: var(--dl-space-space-fourunits);
           }
           .home-content-container4 {
@@ -1857,7 +1857,7 @@ const Home = (props) => {
             border-width: 0px;
             border-radius: var(--dl-radius-radius-radius8);
           }
-          .home-text51 {
+          .home-text53 {
             width: 100%;
             font-family: 'Courier New';
           }
@@ -1914,7 +1914,7 @@ const Home = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-doubleunit);
           }
-          .home-text52 {
+          .home-text54 {
             font-family: 'Courier New';
           }
           @media (max-width: 991px) {
@@ -1934,16 +1934,22 @@ const Home = (props) => {
             .home-text10 {
               text-align: center;
             }
+            .home-text11 {
+              text-align: center;
+            }
             .home-text12 {
               text-align: center;
             }
-            .home-text13 {
+            .home-text14 {
+              text-align: center;
+            }
+            .home-text15 {
               text-align: center;
             }
             .home-image2 {
               width: 100%;
             }
-            .home-text16 {
+            .home-text18 {
               text-align: center;
             }
             .home-pricing-card-container {
@@ -1978,6 +1984,7 @@ const Home = (props) => {
             }
             .home-heading1 {
               font-size: 1.5em;
+              align-self: flex-start;
               text-align: left;
               font-family: Courier New;
             }
@@ -1988,11 +1995,25 @@ const Home = (props) => {
               text-transform: none;
               text-decoration: none;
             }
+            .home-text11 {
+              font-family: Overpass;
+              font-weight: 900;
+              line-height: 1.22;
+              text-transform: none;
+              text-decoration: none;
+            }
             .home-text12 {
+              font-family: Overpass;
+              font-weight: 900;
+              line-height: 1.22;
+              text-transform: none;
+              text-decoration: none;
+            }
+            .home-text14 {
               align-self: flex-start;
               text-align: left;
             }
-            .home-text13 {
+            .home-text15 {
               text-align: left;
             }
             .home-cta-btn1 {
@@ -2086,10 +2107,33 @@ const Home = (props) => {
               width: 100%;
             }
             .home-heading1 {
+              width: 100%;
+              font-size: 2em;
               text-align: left;
               font-family: Courier New;
             }
-            .home-text13 {
+            .home-text10 {
+              font-family: Overpass;
+              font-weight: 900;
+              line-height: 1.22;
+              text-transform: none;
+              text-decoration: none;
+            }
+            .home-text11 {
+              font-family: Overpass;
+              font-weight: 900;
+              line-height: 1.22;
+              text-transform: none;
+              text-decoration: none;
+            }
+            .home-text12 {
+              font-family: Overpass;
+              font-weight: 900;
+              line-height: 1.22;
+              text-transform: none;
+              text-decoration: none;
+            }
+            .home-text15 {
               text-align: left;
             }
             .home-cta-btn-container {
@@ -2104,7 +2148,7 @@ const Home = (props) => {
               width: 100%;
               margin-right: var(--dl-space-space-halfunit);
             }
-            .home-text16 {
+            .home-text18 {
               font-size: 2.5rem;
             }
             .home-card1 {
@@ -2116,7 +2160,7 @@ const Home = (props) => {
             .home-card3 {
               width: 100%;
             }
-            .home-text20 {
+            .home-text22 {
               text-align: center;
             }
             .home-content-container4 {
