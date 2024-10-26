@@ -68,9 +68,18 @@ const Home = (props) => {
                 </div>
               </div>
               <div className="home-links-container2">
-                <span className="home-link14 Navbar-Link">About</span>
-                <span className="home-link15 Navbar-Link">Portofolio</span>
-                <span className="Navbar-Link">Contact</span>
+                <Link href="/about">
+                  <a className="home-link15 Navbar-Link">About</a>
+                </Link>
+                <a href="#packages" className="home-link16 Navbar-Link">
+                  Packages
+                </a>
+                <a
+                  href="mailto:mail@pkch.onlinee?subject=Contact"
+                  className="home-link17 Navbar-Link"
+                >
+                  Contact
+                </a>
               </div>
             </div>
           </div>
@@ -269,7 +278,7 @@ const Home = (props) => {
                 </div>
                 <a
                   href="mailto:mail@pkch.online?subject=Mdium Package"
-                  className="home-link17 Anchor button"
+                  className="home-link18 Anchor button"
                 >
                   CHOOSE
                 </a>
@@ -328,7 +337,7 @@ const Home = (props) => {
                 </div>
                 <a
                   href="mailto:mail@pkch.online?subject=Premium Package"
-                  className="home-link18 Anchor button"
+                  className="home-link19 Anchor button"
                 >
                   CHOOSE
                 </a>
@@ -606,11 +615,16 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-link14 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
           .home-link15 {
             margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .home-link16 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .home-link17 {
+            text-decoration: none;
           }
           .home-section-separator1 {
             width: 100%;
@@ -835,8 +849,10 @@ const Home = (props) => {
             display: flex;
             flex-wrap: wrap;
             align-items: flex-start;
+            border-radius: 10px;
             flex-direction: row;
             justify-content: space-between;
+            background-color: #272727;
           }
           .home-card1 {
             width: 30%;
@@ -964,6 +980,7 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-tripleunit);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fiveunits);
+            background-color: #202020;
           }
           .home-heading-container2 {
             width: 45%;
@@ -1008,7 +1025,7 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-fourunits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fiveunits);
-            background-color: #1e1e1e;
+            background-color: #373737;
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
           }
@@ -1273,7 +1290,7 @@ const Home = (props) => {
           .home-text35 {
             font-family: 'Courier New';
           }
-          .home-link17 {
+          .home-link18 {
             color: var(--dl-color-gray-white);
             margin-top: var(--dl-space-space-fourunits);
             text-align: center;
@@ -1457,7 +1474,7 @@ const Home = (props) => {
           .home-text48 {
             font-family: 'Courier New';
           }
-          .home-link18 {
+          .home-link19 {
             color: var(--dl-color-gray-white);
             margin-top: var(--dl-space-space-fourunits);
             text-align: center;
@@ -1881,6 +1898,7 @@ const Home = (props) => {
             flex-direction: row;
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: space-between;
+            background-color: #232323;
           }
           .home-copyright-container {
             display: flex;
@@ -1956,9 +1974,19 @@ const Home = (props) => {
               fill: var(--dl-color-gray-white);
             }
             .home-heading1 {
+              font-size: 1.5em;
               text-align: left;
+              font-family: Courier New;
+            }
+            .home-text10 {
+              font-family: Overpass;
+              font-weight: 900;
+              line-height: 1.22;
+              text-transform: none;
+              text-decoration: none;
             }
             .home-text12 {
+              align-self: flex-start;
               text-align: left;
             }
             .home-text13 {
@@ -2055,6 +2083,7 @@ const Home = (props) => {
             }
             .home-heading1 {
               text-align: left;
+              font-family: Courier New;
             }
             .home-text13 {
               text-align: left;
@@ -2070,6 +2099,9 @@ const Home = (props) => {
             .home-cta-btn2 {
               width: 100%;
               margin-right: var(--dl-space-space-halfunit);
+            }
+            .home-text16 {
+              font-size: 2.5rem;
             }
             .home-card1 {
               width: 100%;
