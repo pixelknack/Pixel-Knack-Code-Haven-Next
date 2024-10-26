@@ -199,7 +199,7 @@ const Home = (props) => {
                 <span className="home-price1">
                   <span>BASIC Package ⭐</span>
                   <br></br>
-                  <span className="home-text24">$100</span>
+                  <span className="home-text24">$100.00</span>
                 </span>
               </div>
               <div className="home-card-content1">
@@ -244,7 +244,7 @@ const Home = (props) => {
                       }}
                     />
                   </span>
-                  <span className="home-text29">$200</span>
+                  <span className="home-text29">$200.00</span>
                 </span>
               </div>
               <div className="home-card-content2">
@@ -294,7 +294,7 @@ const Home = (props) => {
                 <span className="home-price3">
                   <span>PRO Package⭐⭐⭐</span>
                   <br></br>
-                  <span className="home-text39">$1000</span>
+                  <span className="home-text39">$1000.00</span>
                 </span>
               </div>
               <div className="home-card-content3">
@@ -1025,7 +1025,7 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-fourunits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fiveunits);
-            background-color: #373737;
+            background-color: #585858;
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
           }
@@ -1047,11 +1047,12 @@ const Home = (props) => {
             text-align: center;
             font-family: 'Arial';
             font-weight: 700;
-            text-shadow: 2px 2px 3px;
+            text-shadow: 2px 2px 3px black;
             text-transform: uppercase;
           }
           .home-text24 {
             font-size: 30px;
+            font-family: 'Courier New';
           }
           .home-card-content1 {
             width: 100%;
@@ -1187,11 +1188,12 @@ const Home = (props) => {
             text-align: center;
             font-family: 'Arial';
             font-weight: 700;
-            text-shadow: 2px 2px 3px;
+            text-shadow: 2px 2px 3px black;
             text-transform: uppercase;
           }
           .home-text29 {
             font-size: 30px;
+            font-family: 'Courier New';
           }
           .home-card-content2 {
             width: 100%;
@@ -1351,11 +1353,12 @@ const Home = (props) => {
             text-align: center;
             font-family: 'Arial';
             font-weight: 700;
-            text-shadow: 2px 2px 3px;
+            text-shadow: 2px 2px 3px black;
             text-transform: uppercase;
           }
           .home-text39 {
             font-size: 30px;
+            font-family: 'Courier New';
           }
           .home-card-content3 {
             gap: var(--dl-space-space-unit);
