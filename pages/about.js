@@ -685,6 +685,15 @@ const About = (props) => {
           .about-text214 {
             font-family: 'Courier New';
           }
+          @media (max-width: 479px) {
+            .about-container3 {
+              width: 100%;
+              padding: var(--dl-space-space-tripleunit);
+            }
+            .about-text102 {
+              width: 100%;
+            }
+          }
         `}
       </style>
     </>
