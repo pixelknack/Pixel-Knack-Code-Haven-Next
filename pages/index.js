@@ -385,7 +385,7 @@ const Home = (props) => {
               </div>
               <div className="home-answer-container2">
                 <span className="home-answer3">
-                  he timeline for project completion varies based on the
+                  The timeline for project completion varies based on the
                   complexity and scope. Typically, our Basic Package takes 1-2
                   weeks, the Complex Package takes 2-4 weeks, and the
                   Professional Package can take 4-8 weeks. We’ll provide a more
