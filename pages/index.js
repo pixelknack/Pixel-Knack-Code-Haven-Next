@@ -2064,6 +2064,7 @@ const Home = (props) => {
           @media (max-width: 479px) {
             .home-navbar {
               height: auto;
+              padding: var(--dl-space-space-doubleunit);
               flex-direction: row;
               justify-content: space-between;
             }
