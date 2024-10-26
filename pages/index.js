@@ -100,7 +100,7 @@ const Home = (props) => {
               </span>
               <span id="about" className="home-text15">
                 Welcome to Pixel Knack Code Haven (PKCH), where creativity meets
-                technology! I&apos;m [Your Name], a passionate developer
+                technology! I&apos;m Pixel Knack, a passionate developer
                 dedicated to transforming ideas into reality through innovative
                 web and mobile solutions
               </span>
@@ -709,8 +709,9 @@ const Home = (props) => {
             text-align: center;
             border-color: #a5a5a5;
             border-radius: var(--dl-radius-radius-radius8);
-            animation-name: bounce;
+            animation-name: shakeX;
             animation-delay: 0s;
+            background-color: rgba(0, 155, 236, 0.21);
             animation-duration: 1000ms;
             animation-direction: normal;
             animation-iteration-count: 5;
@@ -729,9 +730,10 @@ const Home = (props) => {
             text-align: center;
             border-color: #a5a5a5;
             border-radius: var(--dl-radius-radius-radius8);
-            animation-name: bounce;
+            animation-name: shakeX;
             animation-delay: 4s;
             text-decoration: none;
+            background-color: rgba(20, 20, 20, 0.4);
             animation-duration: 1000ms;
             animation-direction: normal;
             animation-iteration-count: 4;
