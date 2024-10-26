@@ -317,7 +317,7 @@ const Home = (props) => {
                 <div className="home-container25">
                   <span className="home-text45">
                     <span>Advanced SEO optimization with ongoing support.</span>
-                    <span className="home-text47 Card-Text"> four</span>
+         
                   </span>
                 </div>
                 <div className="home-container26">
