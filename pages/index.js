@@ -75,7 +75,7 @@ const Home = (props) => {
                   Packages
                 </a>
                 <a
-                  href="mailto:mail@pkch.onlinee?subject=Contact"
+                  href="mailto:mail@pkch.online?subject=Contact"
                   className="home-link17 Navbar-Link"
                 >
                   Contact
